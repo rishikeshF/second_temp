@@ -11,8 +11,12 @@ http
                 Response.write("<h1>Home Page</h1>");
                 Response.end();
                 break;
+<<<<<<< HEAD
             case 'about/ ':
             console.log('something somethign')
+=======
+            default :
+>>>>>>> 404-feature
             Response.writetoHead(404, {
                 "Content-Type":"text/html",
                 console.log("something")
