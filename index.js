@@ -14,6 +14,7 @@ http
             default :
             Response.writetoHead(404, {
                 "Content-Type":"text/html",
+                console.log("something")
 
             });
             Response.write("<p>404 Page not found</p>");
